@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.transition.TransitionInflater
 import com.bumptech.glide.Glide
 import com.example.navigationsample.databinding.FragmentThirdBinding
@@ -21,6 +22,10 @@ class ThirdFragment : Fragment() {
 
         binding = DataBindingUtil.inflate<FragmentThirdBinding>(inflater, R.layout.fragment_third, container, false)
 
+
+        binding.btnNext.setOnClickListener {
+            findNavController().navigate(R.id.action_thirdFragment_to_fourthFragment)
+        }
 
         return binding.root
     }

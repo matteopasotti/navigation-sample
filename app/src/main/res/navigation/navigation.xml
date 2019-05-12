@@ -23,5 +23,13 @@
     </fragment>
     <fragment android:id="@+id/thirdFragment" android:name="com.example.navigationsample.ThirdFragment"
               android:label="ThirdFragment"
-              tools:layout="@layout/fragment_third"/>
+              tools:layout="@layout/fragment_third">
+        <action android:id="@+id/action_thirdFragment_to_fourthFragment"
+                app:destination="@id/fourthFragment"
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"/>
+    </fragment>
+    <fragment android:id="@+id/fourthFragment" android:name="com.example.navigationsample.FourthFragment"
+              android:label="FourthFragment"
+              tools:layout="@layout/fragment_fourth"/>
 </navigation>

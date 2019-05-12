@@ -18,4 +18,11 @@
         see what happen
     </string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</string>
+    <string name="fragment_third_label">It\'s nice, isn\'t it? Now let\'s see other simple animations, enterAnim and
+        exitAnim
+    </string>
+    <string name="fragment_fourth_label">FourthFragment. We have defined a normal action but this time with some
+        animations. If you check in the navigation graph, and you select the action from ThirdFragment to
+        FourthFragment, you will see this :
+    </string>
 </resources>
