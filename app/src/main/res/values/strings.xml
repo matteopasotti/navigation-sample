@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">NavigationSample</string>
     <string name="let_s_navigate">Let\'s Navigate!</string>
+    <string name="label_first_fragment">This is FirstFragment. You can see a simple basic usage of Navigation between
+        IntroFragment and FirstFragment
+    </string>
+    <string name="fragment_first_exercise">Now Let\'s try to pass an argument. Type something and we will pass it to the
+        next screen
+    </string>
+    <string name="type_something_here">Type something here..</string>
+    <string name="next">Next</string>
 </resources>
