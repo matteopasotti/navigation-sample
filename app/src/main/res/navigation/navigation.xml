@@ -19,5 +19,9 @@
               android:label="SecondFragment"
               tools:layout="@layout/fragment_second">
         <argument android:name="text_input" app:argType="string"/>
+        <action android:id="@+id/action_secondFragment_to_thirdFragment" app:destination="@id/thirdFragment"/>
     </fragment>
+    <fragment android:id="@+id/thirdFragment" android:name="com.example.navigationsample.ThirdFragment"
+              android:label="ThirdFragment"
+              tools:layout="@layout/fragment_third"/>
 </navigation>
