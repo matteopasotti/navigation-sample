@@ -9,4 +9,12 @@
     </string>
     <string name="type_something_here">Type something here..</string>
     <string name="next">Next</string>
+    <string name="fragment_second_label">This is SecondFragment. Here we are receiving an argument from FirstFragment,
+        so you can see an example of Navigation with arguments, using SafeArgs
+    </string>
+    <string name="argument">Argument :</string>
+    <string name="second_fragment_exercise">
+        Ok now let\'s see an animation, Shared Element Transition between this image and the next screen. Click on Next and
+        see what happen
+    </string>
 </resources>
