@@ -17,4 +17,10 @@ class MainActivity : AppCompatActivity() {
         val navController = this.findNavController(R.id.myNavHostFragment)
         NavigationUI.setupActionBarWithNavController(this, navController)
     }
+
+    // here we specify what happens when we press the up button (arrow on top left)
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = this.findNavController(R.id.myNavHostFragment)
+        return navController.navigateUp()
+    }
 }
