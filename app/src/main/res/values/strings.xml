@@ -25,4 +25,9 @@
         animations. If you check in the navigation graph, and you select the action from ThirdFragment to
         FourthFragment, you will see this :
     </string>
+    <string name="fragment_fourt_popto_inclusive">The last thing that we want to see is the PopTo operantion. We have two
+        different ways, popTo Inclusive and popToEsclusive. Let\'s say that we want popTo Inclusive to IntroFragment, it
+        means that it pops off everything on the back stack, including the referenced fragment transaction
+    </string>
+    <string name="inclusive">INCLUSIVE</string>
 </resources>

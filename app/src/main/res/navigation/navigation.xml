@@ -31,5 +31,8 @@
     </fragment>
     <fragment android:id="@+id/fourthFragment" android:name="com.example.navigationsample.FourthFragment"
               android:label="FourthFragment"
-              tools:layout="@layout/fragment_fourth"/>
+              tools:layout="@layout/fragment_fourth">
+        <action android:id="@+id/action_fourthFragment_to_introFragment" app:destination="@id/introFragment"
+                app:popUpTo="@+id/introFragment"/>
+    </fragment>
 </navigation>
