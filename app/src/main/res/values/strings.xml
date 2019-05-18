@@ -30,4 +30,7 @@
         means that it pops off everything on the back stack, including the referenced fragment transaction
     </string>
     <string name="inclusive">INCLUSIVE</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="firstfragment">FirstFragment</string>
+    <string name="third_fragment">Third Fragment</string>
 </resources>
